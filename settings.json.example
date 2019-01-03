@@ -1,0 +1,24 @@
+{
+  "coin": {
+    "name": "Litecoin",
+    "ticker": "LTC",
+  },
+
+  "token": "yourtoken",
+
+  "wallet": {
+    "ip": "127.0.0.1",
+    "port": 1234,
+    "user": "rpcuser",
+    "password": "password"
+  },
+  "//": "supported markets: cryptopia, tradesatoshi, yobit, coinexchange, cryptohub",
+  "markets": {
+    "enabled": "true",
+    "site": "cryptopia",
+    "ticker": "LTC",
+    "//": "ticker is case-sensitive!",
+    "update-interval": 300.0,
+    "//": "300 seconds by default"
+  }
+}
